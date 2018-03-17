@@ -1,0 +1,26 @@
+{
+  "name": "ionic1-parcel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel ./src/home.html",
+    "build": "parcel build ./src/home.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^8.1.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "bus": "^0.1.0",
+    "jquery": "^3.3.1",
+    "ngcomponentrouter": "^2.1.0",
+    "node-sass": "^4.8.1",
+    "postcss-modules": "^1.1.0",
+    "posthtml-img-autosize": "^0.1.2",
+    "typescript": "^2.7.2"
+  }
+}

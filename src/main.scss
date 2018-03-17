@@ -1,0 +1,248 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+html {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+q, blockquote {
+  quotes: none;
+}
+
+q {
+  &:before, &:after {
+    content: "";
+    content: none;
+  }
+}
+
+blockquote {
+  &:before, &:after {
+    content: "";
+    content: none;
+  }
+}
+
+a img {
+  border: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+::-webkit-input-placeholder {
+  /* WebKit browsers */
+  color: white;
+}
+
+:global(.page-award-home) {
+  position: relative;
+  font-size: 0;
+  :global(.bg) {
+    width: 100%;
+  }
+  :global(.readme) {
+    position: absolute;
+    right:0;
+    top:0;
+    display: block;
+  }
+  :global(.times) {
+    position: absolute;
+    right:0;
+    top:0;
+    display: block;
+    color: white;
+    font-size: 4vw;
+  }
+  :global(.gain), :global(.plan), :global(.tel), :global(.message) {
+    position: absolute;
+    right:0;
+    top:0;
+    display: block;
+  }
+  :global(.point) {
+    position: absolute;
+    right:0;
+    top:0;
+    z-index: 2;
+  }
+  :global(.rotate) {
+    position: absolute;
+    right:0;
+    top:0;
+  }
+  :global(.logout), :global(.award) {
+    position: absolute;
+    right:0;
+    top:0;
+    font-size: 4vw;
+    color: white;
+  }
+  :global(.gift) {
+    position: absolute;
+    right:0;
+    top:0;
+    z-index: 3;
+  }
+}
+
+:global(.page-award-login) {
+  position: absolute;
+  z-index: 4;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  font-size: 0;
+  background: rgba(0,0,0,0.8);
+  :global(.bg) {
+    width: 100%;
+  }
+  :global(.phone), :global(.code) {
+    position: absolute;
+    right:0;
+    top:0;
+    border: 0;
+    background: transparent;
+    outline: none;
+    color: white;
+    font-size: 3vw;
+  }
+  :global(.send), :global(.submit) {
+    position: absolute;
+    right:0;
+    top:0;
+  }
+}
+
+:global(.page-award-readme) {
+  position: absolute;
+  z-index: 4;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  font-size: 0;
+  :global(.bg) {
+    width: 100%;
+  }
+  :global(.close), :global(.invite) {
+    position: absolute;
+    right:0;
+    top:0;
+  }
+}
+
+:global(.page-award-quan) {
+  position: absolute;
+  z-index: 4;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  font-size: 0;
+  :global(.bg) {
+    width: 100%;
+  }
+  :global(.close), :global(.gain), :global(.use) {
+    position: absolute;
+    right:0;
+    top:0;
+  }
+}
+
+:global(.page-award-arrow) {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 11;
+  background: rgba(0, 0, 0, 0.7);
+  text-align: right;
+  :global(img) {
+    width: 80%;
+  }
+}
+
+:global(.page-award-message) {
+  position: absolute;
+  z-index: 4;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  font-size: 0;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.7);
+  :global(.message) {
+    width: 80%;
+    height: 50vw;
+    margin-top: 10vw;
+  }
+  :global(.btn) {
+    margin-top: 20px;
+    width: 100px;
+    height: 40px;
+    background: #FF5722;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+  }
+}
+
+:global(.page-award-intercept) {
+  position: absolute;
+  z-index: 14;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  :global(p) {
+    margin-top: 100px;
+    font-size: 6vw;
+  }
+}
+
+:global(.page-award-loading){
+  position: fixed;
+  z-index: 15;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  background: rgb(244, 60, 58);
+  text-align: center;
+  color: white;
+  span{
+    font-size: 26px;
+    font-weight: bold;
+    margin: 0 auto;
+  }
+}
