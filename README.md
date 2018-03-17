@@ -27,4 +27,4 @@ hit star , thax
 
 </pre>
 
-<img src="./src/assets/img/page.jpg">
+<img src="./src/assets/img/demo.gif">
